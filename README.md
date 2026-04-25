@@ -1,6 +1,8 @@
 
 # LLM-Driven Material Identification Framework (SDU postdoc excercise)
 
+## General Overview
+
 This program is a Python-based framework that converts a natural language description of a material into a fully resolved crystal structure and generates simulation-ready outputs.
 
 The workflow includes:
@@ -10,8 +12,10 @@ The workflow includes:
 - Export of atomic structure metadata (`*.json`) and of simulation inputs (`POSCAR` via ASE, `QE`/`CIF` via c2x)
 - An interactive viewer (ASE gui) is launched to inspect the final structure
 
+
 ## Requirements and General Instructions for Set-Up
-This code requires a Python environment and a set of external dependencies not included in the standard library. 
+
+This code requires a Python environment and a set of external dependencies not included in the standard library. It follows a modular architecture consisting of a main execution script (`main.py`) that controls the overall workflow, and a set of dedicated modules responsible for each task.
 
 The environment can be created using tools such as Conda or Python’s built-in virtual environment system (venv). Both approaches are valid; A Conda-based setup is provided as a standard example.
 
@@ -67,4 +71,8 @@ Finally, execute the program:
  ```bash 
  python main.py
 ```
- 
+
+## Additional Notes and Remarks
+
+### 
+
