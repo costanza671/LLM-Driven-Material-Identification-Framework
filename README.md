@@ -67,7 +67,7 @@ git clone https://github.com/costanza671/LLM-Driven-Material-Identification-Fram
 Otherwise just download it as ZIP (no Git needed) and unzip the content.   
 Move into the project folder: 
  ```bash 
- cd <repository-folder>
+ cd LLM-Driven-Material-Identification-Framework-main
 ```
 Activate the Conda environment and export the required API keys.
 
