@@ -35,6 +35,7 @@ All required dependencies can then be installed inside this environment, using:
 conda install anaconda::termcolor
 conda install conda-forge::google-generativeai
 conda install conda-forge::mp-api
+conda install conda-forge::pymatgen
 conda install conda-forge::ase
 ``` 
 
