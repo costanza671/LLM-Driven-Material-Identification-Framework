@@ -63,12 +63,12 @@ export MP_API_KEY="your_materials_project_api_key"
 The repository must be cloned locally so that all scripts and modules are available in the same working directory. If you have GIT installed:
 ```bash 
 git clone https://github.com/costanza671/LLM-DMIF.git
-```
-Otherwise just download it as ZIP (no Git needed) and unzip the content.   
+```   
 Move into the project folder: 
  ```bash 
- cd LLM-DMIF-main
+ cd LLM-DMIF
 ```
+Otherwise just download it as ZIP (no Git needed), unzip the content and access the main directory.
 Activate the Conda environment and export the required API keys.
 
 Finally, execute the program: 
