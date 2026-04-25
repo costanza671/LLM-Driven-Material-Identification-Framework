@@ -69,6 +69,7 @@ Move into the project folder:
  cd LLM-DMIF
 ```
 Otherwise just download it as ZIP (no Git needed), unzip the content and access the main directory.
+
 Activate the Conda environment and export the required API keys.
 
 Finally, execute the program: 
