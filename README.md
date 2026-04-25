@@ -78,6 +78,7 @@ Finally, execute the program:
 
 ### Output Format Design
 A `JSON` file is used as the primary output format to store and exchange crystal structure data. 
+
 This choice can be motivated as follows:
 * It is human-readable and can be easily inspected and edited in plain text;
 * It provides a standardised structure with broad support across modern programming languages and scientific tools;
@@ -85,3 +86,9 @@ This choice can be motivated as follows:
 * It allows the automatic generation of validating parsers and API clients;
 * It is efficient for data exchange, where computational cost dominates over I/O;
 * It offers improved safety and robustness compared to binary formats.
+
+### Material Scope and Applicability
+The scope of the framework is mainly targeted to materials available in the Materials Project database. The latter is used as the primary source due to its large and diverse collection of well-characterised chemical structures, covering a wide range of crystalline materials. These materials are consistently formatted, computationally validated, and readily accessible, making them reliable inputs for automated workflows.  
+
+### Performance, Limitations, Assumptions and Future Work
+
