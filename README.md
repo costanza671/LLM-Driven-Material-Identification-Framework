@@ -85,7 +85,7 @@ This choice can be motivated as follows:
 * It supports schema-based definitions, enabling clear and unambiguous data representation;
 * It allows the automatic generation of validating parsers and API clients;
 * It is efficient for data exchange, where computational cost dominates over I/O;
-* It offers improved safety and robustness compared to binary formats.
+* It is more secure than other binary formats.
 
 ### Material Scope and Applicability
 The scope of the framework is mainly targeted to materials available in the Materials Project database. The latter is used as the primary source due to its large and diverse collection of well-characterised chemical structures, covering a wide range of crystalline materials. These materials are consistently formatted, computationally validated, and readily accessible, making them reliable inputs for automated workflows.  
