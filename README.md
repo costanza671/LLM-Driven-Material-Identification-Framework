@@ -90,5 +90,7 @@ This choice can be motivated as follows:
 ### Material Scope and Applicability
 The scope of the framework is mainly targeted to materials available in the Materials Project database. The latter is used as the primary source due to its large and diverse collection of well-characterised chemical structures, covering a wide range of crystalline materials. These materials are consistently formatted, computationally validated, and readily accessible, making them reliable inputs for automated workflows.  
 
-### Performance, Limitations, Assumptions and Future Work
-
+### Assumptions, Current Performance and Future Improvements
+The framework assumes a single dominant crystalline phase per input and relies on Materials Project structures as ground truth candidates.
+It performs reliably in selecting stable polymorphs consistent with the inferred symmetry and producing valid, simulation-ready structure conversions across formats. Indeed, the current implementation generates prototype input files for electronic structure calculations, including `POSCAR`, `*.cif`, and `*.in ` (Quantum ESPRESSO) files. 
+Future work includes improving the structure of the code, how outputs are generated and organised after execution, and extending the generation of simulation inputs to be more specific and complete (e.g. fully specified QE inputs and VASP INCAR files instead of generic templates).
