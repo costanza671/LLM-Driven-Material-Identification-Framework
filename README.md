@@ -76,5 +76,12 @@ Finally, execute the program:
 
 ## Additional Notes and Remarks
 
-### 
-
+### Output Format Design
+A `JSON` file is used as the primary output format to store and exchange crystal structure data. 
+This choice can be motivated as follows:
+* It is human-readable and can be easily inspected and edited in plain text;
+* It provides a standardised structure with broad support across modern programming languages and scientific tools;
+* It supports schema-based definitions, enabling clear and unambiguous data representation;
+* It allows the automatic generation of validating parsers and API clients;
+* It is efficient for data exchange, where computational cost dominates over I/O;
+* It offers improved safety and robustness compared to binary formats.
