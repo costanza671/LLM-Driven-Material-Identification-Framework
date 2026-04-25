@@ -1,0 +1,134 @@
+{
+  "formula": "C",
+  "material_id": "mp-48",
+  "space_group": "P6_3/mmc",
+  "crystal_system": "Hexagonal",
+  "energy_above_hull": 0.003121854999999,
+  "structure": {
+    "@module": "pymatgen.core.structure",
+    "@class": "Structure",
+    "charge": 0,
+    "lattice": {
+      "matrix": [
+        [
+          2.467291,
+          0.0,
+          0.0
+        ],
+        [
+          -1.233646,
+          2.136737,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          7.8030729999999995
+        ]
+      ],
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "a": 2.467291,
+      "b": 2.4672915232061654,
+      "c": 7.8030729999999995,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 120.0000063925213,
+      "volume": 41.137426070244764
+    },
+    "properties": {},
+    "sites": [
+      {
+        "species": [
+          {
+            "element": "C",
+            "occu": 1
+          }
+        ],
+        "abc": [
+          0.0,
+          0.0,
+          0.25
+        ],
+        "properties": {
+          "magmom": 0.0
+        },
+        "label": "C",
+        "xyz": [
+          0.0,
+          0.0,
+          1.9507682499999999
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "C",
+            "occu": 1
+          }
+        ],
+        "abc": [
+          0.0,
+          0.0,
+          0.75
+        ],
+        "properties": {
+          "magmom": 0.0
+        },
+        "label": "C",
+        "xyz": [
+          0.0,
+          0.0,
+          5.85230475
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "C",
+            "occu": 1
+          }
+        ],
+        "abc": [
+          0.333333,
+          0.666667,
+          0.25
+        ],
+        "properties": {
+          "magmom": -0.0
+        },
+        "label": "C",
+        "xyz": [
+          -1.5669790000425355e-06,
+          1.424492045579,
+          1.9507682499999999
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "C",
+            "occu": 1
+          }
+        ],
+        "abc": [
+          0.666667,
+          0.333333,
+          0.75
+        ],
+        "properties": {
+          "magmom": -0.0
+        },
+        "label": "C",
+        "xyz": [
+          1.233646566979,
+          0.712244954421,
+          5.85230475
+        ]
+      }
+    ]
+  }
+}
