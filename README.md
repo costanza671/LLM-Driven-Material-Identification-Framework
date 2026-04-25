@@ -15,7 +15,9 @@ The workflow includes:
 
 ## Requirements and General Instructions for Set-Up
 
-This code requires a Python environment and a set of external dependencies not included in the standard library. It follows a modular architecture consisting of a main execution script (`main.py`) that controls the overall workflow, and a set of dedicated modules responsible for each task.
+This code follows a modular architecture consisting of a main execution script (`main.py`) that controls the overall workflow, and a set of dedicated modules responsible for each task. 
+
+It requires a Python environment and a set of external dependencies not included in the standard library.  
 
 The environment can be created using tools such as Conda or Python’s built-in virtual environment system (venv). Both approaches are valid; A Conda-based setup is provided as a standard example.
 
