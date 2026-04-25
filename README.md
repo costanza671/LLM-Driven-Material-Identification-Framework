@@ -60,11 +60,12 @@ export MP_API_KEY="your_materials_project_api_key"
 ```
 
 ## Usage
- The repository must be cloned locally so that all scripts and modules are available in the same working directory:
+The repository must be cloned locally so that all scripts and modules are available in the same working directory. If you have GIT installed:
 ```bash 
-git clone <repository-url>
+git clone https://github.com/costanza671/LLM-Driven-Material-Identification-Framework.git
 ```
- Move into the project folder: 
+Otherwise just download it as ZIP (no Git needed) and unzip the content.   
+Move into the project folder: 
  ```bash 
  cd <repository-folder>
 ```
