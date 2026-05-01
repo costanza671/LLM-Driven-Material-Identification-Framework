@@ -1,5 +1,5 @@
 
-# LLM-Driven Material Identification Framework (SDU postdoc excercise)
+# LLM-Driven Material Identification Framework (SDU postdoc exercise)
 
 ## General Overview
 
