@@ -50,7 +50,7 @@ if __name__ == "__main__":
     structure = mp_data["structure"]
 
     # Convert from dict to pymatgen Structure when data is in JSON form (e.g. API or file input)
-    # This is needed because only pymatgen Structure objects support lattice, symmetry, and coordinate operations and downstream tools (POSCAR writing, symmetry analysis, and ASE conversion) require a consistent Structure object with lattice and coordinate methods
+    # This is needed because only pymatgen Structure objects support lattice, symmetry, and coordinate operations and downstream tools (POSCAR writing, symmetry analysis, and ASE conversion) 
     if isinstance(structure, dict):
        structure = Structure.from_dict(structure)
  
